@@ -1,4 +1,4 @@
-package com.codingwithjks.mvvmwithromandcoroutines
+package com.example.mvvmexample
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -12,10 +12,6 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.codingwithjks.mvvmwithromandcoroutines.Adapter.vehicleAdapter
-import com.codingwithjks.mvvmwithromandcoroutines.Model.Vehicle
-
-import com.codingwithjks.mvvmwithromandcoroutines.ViewModel.UserViewModel
 import com.example.mvvmexample.R
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 

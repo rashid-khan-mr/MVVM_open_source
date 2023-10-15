@@ -1,9 +1,7 @@
-package com.codingwithjks.mvvmwithromandcoroutines.Repository
+package com.example.mvvmexample
 
 import android.content.Context
 import androidx.lifecycle.LiveData
-import com.codingwithjks.mvvmwithromandcoroutines.Database.UserDatabase
-import com.codingwithjks.mvvmwithromandcoroutines.Model.Vehicle
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers.IO
 import kotlinx.coroutines.launch

@@ -1,4 +1,4 @@
-package com.codingwithjks.mvvmwithromandcoroutines.Adapter
+package com.example.mvvmexample
 
 import android.content.Context
 import android.view.LayoutInflater
@@ -7,7 +7,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.codingwithjks.mvvmwithromandcoroutines.Model.Vehicle
 import com.example.mvvmexample.R
 
 

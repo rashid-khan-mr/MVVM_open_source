@@ -1,11 +1,8 @@
-package com.codingwithjks.mvvmwithromandcoroutines.ViewModel
+package com.example.mvvmexample
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.codingwithjks.mvvmwithromandcoroutines.Model.Vehicle
-import com.codingwithjks.mvvmwithromandcoroutines.Repository.UserRepository
-
 class UserViewModel :ViewModel() {
 
     fun insert(context: Context, vehicle:Vehicle)

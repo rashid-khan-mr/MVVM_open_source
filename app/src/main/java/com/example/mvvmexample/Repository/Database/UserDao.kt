@@ -1,11 +1,10 @@
-package com.codingwithjks.mvvmwithromandcoroutines.Dao
+package com.example.mvvmexample
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy
 import androidx.room.Query
-import com.codingwithjks.mvvmwithromandcoroutines.Model.Vehicle
 
 @Dao
 interface UserDao {

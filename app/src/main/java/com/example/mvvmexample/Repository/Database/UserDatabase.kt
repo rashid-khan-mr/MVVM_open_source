@@ -1,11 +1,9 @@
-package com.codingwithjks.mvvmwithromandcoroutines.Database
+package com.example.mvvmexample
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.codingwithjks.mvvmwithromandcoroutines.Dao.UserDao
-import com.codingwithjks.mvvmwithromandcoroutines.Model.Vehicle
 
 @Database(entities = [Vehicle::class],version = 1, exportSchema = false)
 abstract class UserDatabase : RoomDatabase() {
